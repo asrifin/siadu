@@ -95,7 +95,7 @@ body{
 	</td>
 	<td align="center" width="160px">
 		<!--div class="blok" style="background:url('repo.png') center no-repeat #2173b6" onclick="jumpTo('../smsgateway/login.php')"></div-->
-		<div class="blok" style="background:url('repo.png') center no-repeat #2173b6" onclick="jumpTo('../repository')"></div>
+		<div class="blok" style="background:url('repo.png') center no-repeat #2173b6" onclick="jumpTo('../pointofsales')"></div>
 	</td>
 	<td align="center" width="160px">
 		<div class="blok" style="background:url('report.png') center no-repeat #da5632" onclick="jumpTo('../manajemen/')"></div>
