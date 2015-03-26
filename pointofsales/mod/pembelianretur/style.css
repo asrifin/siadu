@@ -1,0 +1,27 @@
+.input_container ul {
+	width: 206px;
+	border: 1px solid #eaeaea;
+	position: absolute;
+	z-index: 9;
+	background: #f3f3f3;
+	list-style: none;
+}
+.input_container ul li {
+	padding: 2px;
+}
+.input_container ul li:hover {
+	background: #eaeaea;
+}
+#country_list_id {
+	display: none;
+}
+#Tbayar {
+	display: none;
+	font-size	: 50px;
+	color		: #FC5300;
+	font-weight	: bold;
+	font-family	: Georgia, "Times New Roman", Times, serif;
+}
+
+
+

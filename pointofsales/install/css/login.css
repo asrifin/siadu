@@ -1,0 +1,128 @@
+/**
+* @version $Id: admin_login.css,v 1.1 2005/07/22 01:54:30 eddieajau Exp $
+* @package Mambo
+* @copyright (C) 2000 - 2005 Miro International Pty Ltd
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+* Mambo is Free Software
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color : #333;
+	font-size : 11px;
+	font-family : Arial, Helvetica, sans-serif;
+ /*	background	: #EEEEEE url(../bg.jpg) bottom center no-repeat fixed;*/
+	    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;  
+	background-size: cover;
+}
+a { 
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+}
+a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: none;
+}
+#wrapper {
+        border: 0px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+}
+
+#header {
+        background-color: #FFF;
+        background-position: right top;
+        border-bottom: 4px solid #80B5D7;
+}
+
+#break {
+	height: 50px;
+}
+
+form {
+    margin: 0px;
+}
+
+
+
+.button {
+
+	background: #E9ECEF;
+	color : #666666;
+	font-weight : bold;
+	font-size : 11px;
+	padding: 4px;
+}
+
+.login {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	padding: 15px;
+	border: 1px solid #cccccc;
+	width: 429px;
+	background: #F1F3F5;
+	top: 10em;
+	border-radius: 5px;
+}
+	
+.login p {
+	padding: 0 1em 0 1em;
+	}
+	
+.form-block {
+
+
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.login-form {
+	text-align: left;
+	float: right;
+	width: 60%;
+}
+
+.login-text {
+	text-align: center;
+	width: 40%;
+	float: left;
+}
+
+.inputlabel {
+	font-weight: bold;
+	text-align: left;
+	color:#777777;
+	}
+
+.inputbox {
+	width: 150px;
+	margin: 0 0 1em 0;
+
+	}
+
+.clr {
+    clear:both;
+    }
+
+.ctr {
+	text-align: center;
+}
+
+.version {
+	font-size: 0.8em;
+}
+
+.footer {
+	color:#777777;
+}
